@@ -29,7 +29,7 @@
 6.  访问[http://localhost:3000/]()
 
 发现，db.json下第一级json对象被解析成可访问的路径：
-![](media/14918943995572/14918955216055.jpg)
+![](http://ol02dlpzm.bkt.clouddn.com/14918955216055.jpg)
 
 
 访问访问[http://localhost:3000/posts]()可获得
@@ -71,7 +71,7 @@ module.exports=function(){
 ```
 3. 运行`json-server mock/faker-data.js`，在json server中使用faker
 4. 访问[](http://localhost:3000/people)可以获取随机生成的20组数据
-![](media/14918943995572/14918961418940.gif)
+![](http://ol02dlpzm.bkt.clouddn.com/14918961418940.gif)
 
 #### 添加中间件将POST请求转为GET请求
 
@@ -94,13 +94,13 @@ module.exports=function(req,res,next){
 
 #### 代理设置
 1. vue-cli工程里，在`config/index.js`的**proxyTable**将请求映射到 [](http://localhost:3000)
-![](media/14918943995572/14918966922863.jpg)
+![](http://ol02dlpzm.bkt.clouddn.com/14918966922863.jpg)
 在代码中添加请求以测试效果：
-![](media/14918943995572/14918967579935.jpg)
+![](http://ol02dlpzm.bkt.clouddn.com/14918967579935.jpg)
 
 2. `npm run mockdev`启动带mock数据的本地服务
 
-    ![](media/14918943995572/14918968549557.jpg)
-![](media/14918943995572/14918968608776.jpg)
+    ![](http://ol02dlpzm.bkt.clouddn.com/14918968549557.jpg)
+![](http://ol02dlpzm.bkt.clouddn.com/14918968608776.jpg)
 
 
